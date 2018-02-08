@@ -1,7 +1,3 @@
-.ai-fe {
-    align-items: flex-end;
-}
-
 .d-f {
     display: flex;
 }
@@ -10,6 +6,10 @@
     justify-content: space-around;
 }
 
-.w-100p {
-    width: 100%;
+.w-270px {
+    width: 270px;
+}
+
+.w-960px {
+    width: 960px;
 }
