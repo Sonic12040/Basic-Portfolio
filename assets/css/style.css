@@ -1,13 +1,24 @@
 .d-f {
     display: flex;
 }
+.d-i {
+    display: inline;
+}
 
-.jc-sa {
-    justify-content: space-around;
+.fw-w {
+    flex-wrap: wrap;
+}
+
+.jc-fe {
+    justify-content: flex-end;
 }
 
 .w-270px {
     width: 270px;
+}
+
+.w-650px {
+    width: 650px;
 }
 
 .w-960px {
