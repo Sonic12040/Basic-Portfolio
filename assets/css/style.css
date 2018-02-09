@@ -1,14 +1,51 @@
+.ai-b {
+    align-items: baseline;
+}
+  
+.bb-s {
+    border-bottom: solid;
+}
+  
+.bl-s {
+    border-left: solid;
+}
+  
+.br-s {
+    border-right: solid;
+}
+  
+.bt-s {
+    border-top: solid;
+}
+  
 .d-f {
     display: flex;
 }
-.d-i {
-    display: inline;
+  
+.fg-1 {
+    flex-grow: 1;
+}
+  
+.fg-5 {
+    flex-grow: 5;
 }
 
-.fw-w {
-    flex-wrap: wrap;
+.fs-200p {
+    font-size: 200%;
 }
 
-.jc-fe {
-    justify-content: flex-end;
+.fs-300p {
+    font-size: 300%;
+  }
+  
+.lst-n {
+    list-style-type: none;
+}
+  
+.ta-c {
+    text-align: center;
+}
+
+.td-n {
+    text-decoration: none;
 }
