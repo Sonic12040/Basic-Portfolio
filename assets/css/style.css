@@ -1,7 +1,11 @@
 .ai-b {
     align-items: baseline;
 }
-  
+
+.ai-fc {
+    align-items: flex-start;
+} 
+
 .bb-s {
     border-bottom: solid;
 }
@@ -21,11 +25,22 @@
 .d-f {
     display: flex;
 }
-  
+
+.fb-28p {
+    flex-basis: 28%;
+}
+
+.fb-67p {
+    flex-basis: 67%;
+}
+
 .fg-1 {
     flex-grow: 1;
 }
-  
+
+.fg-4 {
+    flex-grow: 3;
+}
 .fg-5 {
     flex-grow: 5;
 }
@@ -37,6 +52,14 @@
 .fs-300p {
     font-size: 300%;
   }
+
+.fw-w {
+    flex-wrap: wrap;
+}
+
+.jc-c {
+    justify-content: center;
+}
   
 .lst-n {
     list-style-type: none;
