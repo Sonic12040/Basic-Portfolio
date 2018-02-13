@@ -12,6 +12,21 @@
 .bb-s {
     border-bottom: solid;
 }
+.bdc-FFEB3B {
+    border-color: #FFEB3B;
+}
+
+.bds-s {
+    border-style: solid;
+}
+
+.bgc-1B5E20 {
+    background-color: #1B5E20;
+}
+
+.bgc-388E3C {
+    background-color: #388E3C;
+}
   
 .bl-s {
     border-left: solid;
@@ -24,7 +39,15 @@
 .bt-s {
     border-top: solid;
 }
-  
+
+.bw-3 {
+    border-width: 3px;
+}
+
+.d-b {
+    display: block;
+}
+
 .d-f {
     display: flex;
 }
@@ -72,6 +95,10 @@
     justify-content: space-around;
 }
 
+.mt-5p {
+    margin-top: 5%;
+}
+
 .p-f {
     position: fixed;
 }
@@ -88,8 +115,16 @@
     text-decoration: none;
 }
 
+.w-39p {
+    width: 39%;
+}
+
 .w-40p {
     width: 40%;
+}
+
+.w-61p {
+    width: 61%
 }
 
 .w-100p {
