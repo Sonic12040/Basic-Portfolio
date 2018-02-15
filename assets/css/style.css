@@ -89,12 +89,20 @@
     height: 100%;
 }
 
+.h-128px {
+    height: 128px;
+}
+
 .jc-sa {
     justify-content: space-around;
 }
 
 .mt-5p {
     margin-top: 5%;
+}
+
+.pad-5p {
+    padding: 5%;
 }
 
 .pad-20px {
@@ -131,4 +139,8 @@
 
 .w-61p {
     width: 61%
+}
+
+.w-128px {
+    width: 128px;
 }
