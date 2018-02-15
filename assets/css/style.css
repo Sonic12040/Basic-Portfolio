@@ -33,6 +33,10 @@
     border-width: 3px;
 }
 
+.c-E8F5E9 {
+    color: #E8F5E9;
+}
+
 .d-b {
     display: block;
 }
@@ -45,8 +49,8 @@
     float: left;
 }
 
-.fb-28p {
-    flex-basis: 28%;
+.fb-30p {
+    flex-basis: 30%;
 }
 
 .fd-c {
@@ -101,12 +105,24 @@
     text-decoration: none;
 }
 
+.w-28p {
+    width: 28%;
+}
+
+.w-30p {
+    width: 30%;
+}
+
 .w-39p {
     width: 39%;
 }
 
 .w-40p {
     width: 40%;
+}
+
+.w-55p {
+    width: 55%;
 }
 
 .w-61p {
