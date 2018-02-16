@@ -19,8 +19,18 @@
                 </nav>
             </header>
             <section id="content" class="ai-fs d-f jc-sa mt-5p">
-                <form id="contact" class="bdc-FFEB3B bds-s bgc-1B5E20 bw-3 w-55p">
-                    <h2 class="bb-s c-E8F5E9 fs-200p pad-20px">Contact Me</h2>
+                <form action="/tbd" method="POST" id="contact" class="bdc-FFEB3B bds-s bgc-1B5E20 bw-3 w-55p">
+                    <div><h2 class="bb-s c-E8F5E9 fs-200p">Contact Me</h2></div>
+                    <div class="c-E8F5E9 fs-150p pad-1p"><label for="firstName">First Name:</label></div>
+                    <div><input class="ml-5p w-30p" type="text" id="firstName" name="first_name"></div>
+                    <div class="c-E8F5E9 fs-150p pad-1p"><label for="lastName">Last Name:</label></div>
+                    <div><input class="ml-5p w-30p" type="text" id="lastName" name="last_name"></div>
+                    <div class="c-E8F5E9 fs-150p pad-1p"><label for="mail">E-mail:</label></div>
+                    <div><input class="ml-5p w-30p" type="email" id="mail" name="user_mail"></div>
+                    <div class="c-E8F5E9 fs-150p pad-1p"><label for="msg">Message:</label></div>
+                    <div><textarea class="ml-5p w-30p" id="msg" name="user_message">Type your message here!</textarea></div>
+                    <!-- There will eventually be JavaScript and MySQL to make the button do what I want it to do! -->
+                    <div  class="c-E8F5E9 fs-150p pad-1p"><button type="submit">Send your message</button></div>
                 </form>
                 <aside class="bdc-FFEB3B bds-s bw-3 bgc-1B5E20 w-30p">
                     <h2 class="bb-s c-E8F5E9 fs-200p pad-20px">Connect with me!</h2>

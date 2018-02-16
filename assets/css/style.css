@@ -97,8 +97,16 @@
     justify-content: space-around;
 }
 
+.ml-5p {
+    margin-left: 5%;
+}
+
 .mt-5p {
     margin-top: 5%;
+}
+
+.pad-1p {
+    padding: 1%;
 }
 
 .pad-5p {
