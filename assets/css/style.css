@@ -85,6 +85,10 @@
     font-size: 300%;
   }
 
+.fw-w {
+    flex-wrap: wrap;
+}
+
 .h-100p {
     height: 100%;
 }
@@ -97,12 +101,24 @@
     justify-content: space-around;
 }
 
+.l-0p {
+    left: 0%;
+}
+
 .ml-5p {
     margin-left: 5%;
 }
 
 .mt-5p {
     margin-top: 5%;
+}
+
+.p-a {
+    position: absolute;
+}
+
+.p-r {
+    position: relative;
 }
 
 .pad-1p {
@@ -115,6 +131,14 @@
 
 .pad-20px {
     padding: 20px;
+}
+
+.r-0p {
+    right: 0%;
+}
+
+.t-60p {
+    top: 60%;
 }
   
 .ta-c {
