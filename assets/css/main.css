@@ -102,8 +102,8 @@
     grid-template: 20% 70% 10% / 60% 40%;
 }
 
-.gtr-1fa {
-    grid-template-rows: 1fr auto;
+.gtr-a1fa {
+    grid-template-rows: auto 1fr auto;
 }
 
 .h-100p {
