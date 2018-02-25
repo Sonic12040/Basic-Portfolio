@@ -169,3 +169,19 @@
 .w-30p {
     width: 30%;
 }
+
+@media screen and (max-width: 980px) {
+
+}
+
+@media screen and (max-width: 768px) {
+    .ff-c-mq {
+        flex-flow: column;
+    }    
+}
+
+@media screen and (max-width: 640px) {
+    .ff-c-mq {
+        flex-flow: column;
+    }    
+}
