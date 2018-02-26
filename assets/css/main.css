@@ -98,12 +98,8 @@
     grid-area: 3/1/4/3;
 }
 
-.gt-20p70p10p-60p40p {
-    grid-template: 20% 70% 10% / 60% 40%;
-}
-
-.gtr-a1fa {
-    grid-template-rows: auto 1fr auto;
+.gt-a1fa-60p40p {
+    grid-template: auto 1fr auto / 60% 40%;
 }
 
 .h-100p {
@@ -174,14 +170,34 @@
 
 }
 
-@media screen and (max-width: 768px) {
-    .ff-c-mq {
-        flex-flow: column;
+@media screen and (min-width: 641px) and (max-width: 768px) {
+    .fd-c-mqtab {
+        flex-direction: column;
     }    
 }
 
 @media screen and (max-width: 640px) {
-    .ff-c-mq {
-        flex-flow: column;
+    .fd-c-mqmob {
+        flex-direction: column;
+    }
+
+    .ga-2132-mq {
+        grid-area: 2/1/3/2;
+    }
+
+    .ga-3142-mq {
+        grid-area: 3/1/4/2;
+    }
+
+    .ga-4152-mq {
+        grid-area: 4/1/5/2;
+    }
+
+    .ga-5162-mq {
+        grid-area: 5/1/6/2;
+    }
+
+    .gt-aaaaa-100p-mq  {
+        grid-template: auto auto auto auto auto / 100%;
     }    
 }
