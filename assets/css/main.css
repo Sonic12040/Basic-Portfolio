@@ -10,6 +10,10 @@
     bottom: 0;
 }
 
+.bb-g {
+    border-bottom: groove;
+}
+
 .bb-s {
     border-bottom: solid;
 }
@@ -79,7 +83,7 @@
 }
 
 .gt-a1fr1fr1fra {
-    grid-template: auto 1fr 1fr 1fr auto;
+    grid-template: auto auto 1fr auto auto;
 }
 
 .h-64px {
@@ -132,6 +136,10 @@
 
 .p-f {
     position: fixed;
+}
+
+.pad-2p {
+    padding: 2%;
 }
 
 .pb-2p {
