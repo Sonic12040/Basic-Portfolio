@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html class=" bgc-00701A h-100p">
+<html class="h-100p">
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,44 +7,39 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" media="screen" href="./assets/css/reset.css" />
     <link rel="stylesheet" type="text/css" media="screen" href="./assets/css/main.css" />
-    <script src="main.js"></script>
 </head>
-<body class="d-g gt-a1fa-60p40p mh-100p gt-aaaaa-100p-mq">
-    <div class="as-e bgc-00701A ga-1122">
-        <p class="c-F3E5F5 fs-300p pad-5p">Daniel G Richmond</p>
-    </div>
-    <nav class="as-e ga-1223 ga-2132-mq">
-        <div class="ai-b d-f fw-w jc-sa fd-c-mqmob fd-c-mqtab">
-            <a class="bdc-E8F5E9 bgc-1B5E20-hv bs-s bw-3px c-F3E5F5 fs-200p pad-5p td-n" href="./index.html">About</a>
-            <a class="bdc-E8F5E9 bgc-1B5E20-hv bs-s bw-3px c-F3E5F5 fs-200p pad-5p td-n" href="./portfolio.html">Portfolio</a>
-            <a class="bdc-E8F5E9 bgc-1B5E20-hv bs-s bw-3px c-F3E5F5 fs-200p pad-5p td-n" href="./contact.html">Contact</a>
-        </div>
-    </nav>
-    <article class="bgc-AB47BC ga-2132 pad-5p ga-3142-mq">
-        <form action="/tbd" method="POST" id="contact" class="bdc-FFEB3B bds-s bgc-1B5E20 bw-3 w-55p">
-            <div><h2 class="bb-s c-E8F5E9 fs-200p">Contact Me</h2></div>
-            <div class="c-E8F5E9 fs-150p pad-1p"><label for="firstName">First Name:</label></div>
-            <div><input class="ml-5p w-30p" type="text" id="firstName" name="first_name"></div>
-            <div class="c-E8F5E9 fs-150p pad-1p"><label for="lastName">Last Name:</label></div>
-            <div><input class="ml-5p w-30p" type="text" id="lastName" name="last_name"></div>
-            <div class="c-E8F5E9 fs-150p pad-1p"><label for="mail">E-mail:</label></div>
-            <div><input class="ml-5p w-30p" type="email" id="mail" name="user_mail"></div>
-            <div class="c-E8F5E9 fs-150p pad-1p"><label for="msg">Message:</label></div>
-            <div><textarea class="ml-5p w-30p" id="msg" name="user_message">Type your message here!</textarea></div>
-            <!-- There will eventually be JavaScript and MySQL to make the button do what I want it to do! -->
-            <div  class="c-E8F5E9 fs-150p pad-1p"><button type="submit">Send your message</button></div>
-        </form>    
-    </article>
-    <aside class="bgc-AB47BC ga-2233 pad-5p ga-4152-mq">
-        <h2 class="bb-s c-E8F5E9 fs-200p pad-5p">Connect!</h2>
-        <div class="d-f jc-sa pad-1p fd-c-mqtab">
-            <a href="https://github.com/Sonic12040"><img src="./assets/images/gitHub.png" class="pad-5p" alt="Github"></a>
-            <a href="https://www.linkedin.com/danielgrichmond"><img src="./assets/images/linkedIn.png" class="pad-5p" alt="LinkedIn"></a>
-            <a href="https://stackoverflow.com/users/9054375/daniel-richmond"><img src="./assets/images/stackOverflow.png" class="pad-5p" alt="Stack Overflow"></a>
-        </div>
-    </aside>
-    <footer class="ai-e c-F3E5F5 fs-150p ga-3143 ta-c ga-5162-mq">
-        Copyright &copy; 2018 by Daniel G. Richmond
+<body class="d-g gt-a1fr1fr1frsa mh-100p o-a">
+        <section id="title" class="bb-s gr-1 pb-2p ta-c"><h1 class="fs-200p">Daniel G. Richmond</h1></section>
+        <nav class="ac-c ai-c b-0 bgc-ffffff bt-s d-f ff-rw gr-5 h-70px jc-sa l-0 p-f r-0">
+            <a href="./index.html"><img src="./assets/images/home.svg" height="64px" width="64px" alt="Home"></a>
+            <a href="./portfolio.html"><img src="./assets/images/portfolio.svg" height="64px" width="64px" alt="Portfolio"></a>
+            <a href="./contact.html"><img src="./assets/images/contact.svg" height="64px" width="64px" alt="Contact"></a>
+        </nav>
+        <article id="about" class="gr-3">
+                <form action="/tbd" method="POST" id="contactform">
+                    <div><h2 class="fs-150p ta-c">Contact Me</h2></div>
+                    <div><label for="firstName">First Name:</label></div>
+                    <div><input type="text" id="firstName" autocomplete='given-name' name="first_name"></div>
+                    <div><label for="lastName">Last Name:</label></div>
+                    <div><input type="text" id="lastName" autocomplete='family-name' name="last_name"></div>
+                    <div><label for="mail">E-mail:</label></div>
+                    <div><input type="email" id="mail" autocomplete='email' name="user_mail"></div>
+                    <div><label for="msg">Message:</label></div>
+                    <div><textarea id="msg" name="user_message" placeholder="Type your message here!"></textarea></div>
+                    <!-- There will eventually be JavaScript and MySQL to make the button do what I want it to do! -->
+                    <div><button type="submit">Send your message</button></div>
+                </form>
+        </article>
+        <aside id="connect" class="gr-2">
+            <h2 class="fs-150p ta-c">Connect:</h2>
+            <div class="d-f ff-rw jc-sa">
+                <a href="https://github.com/Sonic12040"><img src="./assets/images/gitHub.png" alt="GitHub"></a>
+                <a href="https://www.linkedin.com/danielgrichmond"><img src="./assets/images/linkedIn.png" alt="LinkedIn"></a>
+                <a href="https://stackoverflow.com/users/9054375/daniel-richmond"><img src="./assets/images/stackOverflow.png" alt="Stack Overflow"></a>
+            </div>
+        </aside>
+    <footer class="bt-g gr-4s lh-1pt5 pb-70px ta-c">
+        Copyright: &copy; 2018 by <a href="mailto:daniel.g.richmond@gmail.com">Daniel G. Richmond</a>
     </footer>
     
 </body>
